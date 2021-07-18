@@ -22,11 +22,11 @@ public class Main {
     }
 
     public List<List<String>> groupAnagrams(String[] strs) {
-        for (String str : strs) {
-            for (int i = 0; i < str.length(); i++) {
-
-            }
-        }
+//        for (String str : strs) {
+//            for (int i = 0; i < str.length(); i++) {
+//
+//            }
+//        }
         return null;
     }
 
