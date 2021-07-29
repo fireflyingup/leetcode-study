@@ -18,7 +18,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-
+        System.out.println("aaa");
     }
 
     public List<List<String>> groupAnagrams(String[] strs) {
