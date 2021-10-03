@@ -102,7 +102,7 @@ public class Solution {
     }
 
     /**
-     * 计数
+     * 相减
      * @param s
      * @param t
      * @return

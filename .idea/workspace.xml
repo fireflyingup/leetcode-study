@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a344129-9b27-4bec-9645-9e74333b232f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/fireflying/leetcode_389/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/fireflying/leetcode_88/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/fireflying/leetcode_70/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/cn/fireflying/leetcode_2110/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/cn/fireflying/leetcode_2110/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/fireflying/leetcode_2110/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/fireflying/leetcode_2110/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/fireflying/leetcode_389/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/fireflying/leetcode_389/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.fireflying.leetcode_2110.Main" />
       <module name="leetcode" />
@@ -57,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.fireflying.leetcode_49.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.fireflying.leetcode_70.Solution" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.fireflying.leetcode_49.*" />
+          <option name="PATTERN" value="cn.fireflying.leetcode_70.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +140,7 @@
       <workItem from="1632749539311" duration="1801000" />
       <workItem from="1632751397091" duration="129000" />
       <workItem from="1632751536318" duration="4409000" />
+      <workItem from="1632843310518" duration="3708000" />
     </task>
     <servers />
   </component>
@@ -167,11 +166,6 @@
           <url>file://$PROJECT_DIR$/src/cn/fireflying/leetcode_88/Solution.java</url>
           <line>46</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/fireflying/leetcode_389/Solution.java</url>
-          <line>94</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
