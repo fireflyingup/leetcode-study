@@ -54,6 +54,12 @@ public class Solution {
         System.out.println(uniquePaths1(3, 7));
     }
 
+    /**
+     *
+     * @param m
+     * @param n
+     * @return
+     */
     public static int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];
         for (int i = 0; i < m; i++) {
@@ -71,6 +77,12 @@ public class Solution {
     }
 
 
+    /**
+     * 滚动数组
+     * @param m
+     * @param n
+     * @return
+     */
     public static int uniquePaths1(int m, int n) {
         int[] dp = new int[n];
         Arrays.fill(dp, 1);

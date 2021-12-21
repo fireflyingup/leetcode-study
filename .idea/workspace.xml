@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a344129-9b27-4bec-9645-9e74333b232f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/fireflying/leetcode_5/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/fireflying/leetcode_62/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/fireflying/LeetCode4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/fireflying/leetcode_25/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/fireflying/leetcode_3/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/fireflying/leetcode_5/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/fireflying/leetcode_5/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/fireflying/leetcode_62/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/fireflying/leetcode_62/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,26 +46,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.fireflying.leetcode_2110.Main" />
+  <component name="RunManager" selected="Application.LeetCode4">
+    <configuration name="LeetCode4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.fireflying.LeetCode4" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.fireflying.leetcode_2110.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.fireflying.leetcode_70.Solution" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.fireflying.leetcode_70.*" />
+          <option name="PATTERN" value="cn.fireflying.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.fireflying.leetcode_3.Solution" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.fireflying.leetcode_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.fireflying.leetcode_389.Solution" />
       <module name="leetcode" />
@@ -108,26 +112,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.LeetCode4" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +161,13 @@
       <workItem from="1633462036860" duration="11000" />
       <workItem from="1633503781177" duration="596000" />
       <workItem from="1639046817738" duration="6559000" />
-      <workItem from="1639482894167" duration="2764000" />
+      <workItem from="1639482894167" duration="3394000" />
+      <workItem from="1639534734647" duration="7043000" />
+      <workItem from="1639705441683" duration="530000" />
+      <workItem from="1639819953974" duration="1902000" />
+      <workItem from="1639821895664" duration="391000" />
+      <workItem from="1639896874490" duration="615000" />
+      <workItem from="1640011289152" duration="6350000" />
     </task>
     <servers />
   </component>
@@ -187,10 +195,9 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <condition expression="i == 5" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/cn/fireflying/leetcode_5/Solution.java</url>
-          <line>98</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/cn/fireflying/LeetCode4.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
