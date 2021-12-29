@@ -5,7 +5,9 @@ package cn.fireflying;
  * @create: 2021-12-25 15:43
  **/
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * 给你一个整数数组 nums ，你可以对它进行一些操作。
@@ -47,21 +49,30 @@ import java.util.Arrays;
 public class LeetCode740 {
 
     public static void main(String[] args) {
-
+        System.out.println(deleteAndEarn(new int[]{3,4,2}));
+        System.out.println(deleteAndEarn(new int[]{2,2,3,3,3,4}));
+        System.out.println(deleteAndEarn(new int[]{1,2,2,2,3,5}));
     }
 
     public static int deleteAndEarn(int[] nums) {
-        int length = nums.length;
-        Arrays.sort(nums);
-        int left = 0;
-        int right = 0;
-        int temp = -1;
-        for (int i = 0; i < length; i++) {
-            if (temp == nums[i]) {
-
-            }
+        if (nums.length == 1) {
+            return nums[0];
         }
-
-        return 1;
+        int length = nums.length;
+        int max = 0;
+        for (int i = 0; i < length; i++) {
+            max = Math.max(nums[i], max);
+        }
+        int[] temp = new int[max + 1];
+        for (int num : nums) {
+            temp[num] += 1;
+        }
+        int[] dp = new int[max + 1];
+        dp[0] = temp[0];
+        dp[1] = temp[1];
+        for (int i = 2; i < temp.length; i++) {
+            dp[i] = Math.max(dp[i - 2] + temp[i] * i, dp[i - 1]);
+        }
+        return dp[max];
     }
 }
