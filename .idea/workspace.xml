@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a344129-9b27-4bec-9645-9e74333b232f" name="Default Changelist" comment="53 152 918">
-      <change afterPath="$PROJECT_DIR$/src/cn/fireflying/LeetCode1014.java" afterDir="false" />
+    <list default="true" id="6a344129-9b27-4bec-9645-9e74333b232f" name="Default Changelist" comment="1014 1567">
+      <change afterPath="$PROJECT_DIR$/src/cn/fireflying/LeetCode121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/fireflying/LeetCode122.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/fireflying/LeetCode309.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/fireflying/LeetCode714.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/fireflying/LeetCode1567.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/fireflying/LeetCode1567.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
       <recent name="cn.fireflying" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode1014">
+  <component name="RunManager" selected="Application.LeetCode714">
     <configuration name="LeetCode1014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.fireflying.LeetCode1014" />
       <module name="leetcode" />
@@ -61,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode152" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.fireflying.LeetCode152" />
+    <configuration name="LeetCode121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.fireflying.LeetCode121" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode1567" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.fireflying.LeetCode1567" />
+    <configuration name="LeetCode122" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.fireflying.LeetCode122" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.fireflying.LeetCode53" />
+    <configuration name="LeetCode309" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.fireflying.LeetCode309" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode918" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.fireflying.LeetCode918" />
+    <configuration name="LeetCode714" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.fireflying.LeetCode714" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode714" />
+        <item itemvalue="Application.LeetCode309" />
+        <item itemvalue="Application.LeetCode122" />
+        <item itemvalue="Application.LeetCode121" />
         <item itemvalue="Application.LeetCode1014" />
-        <item itemvalue="Application.LeetCode1567" />
-        <item itemvalue="Application.LeetCode152" />
-        <item itemvalue="Application.LeetCode918" />
-        <item itemvalue="Application.LeetCode53" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +177,9 @@
       <workItem from="1640596303936" duration="4590000" />
       <workItem from="1640696621233" duration="36096000" />
       <workItem from="1641217106662" duration="4119000" />
-      <workItem from="1641272143070" duration="3326000" />
+      <workItem from="1641272143070" duration="4263000" />
+      <workItem from="1641298018692" duration="7708000" />
+      <workItem from="1641387878368" duration="2504000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode4">
       <created>1640050957283</created>
@@ -212,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641149823034</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1014 1567">
+      <created>1641293255724</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641293255724</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +247,8 @@
     <MESSAGE value="55" />
     <MESSAGE value="45 740" />
     <MESSAGE value="53 152 918" />
-    <option name="LAST_COMMIT_MESSAGE" value="53 152 918" />
+    <MESSAGE value="1014 1567" />
+    <option name="LAST_COMMIT_MESSAGE" value="1014 1567" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
