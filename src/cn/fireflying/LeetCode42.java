@@ -28,6 +28,10 @@ import java.util.Arrays;
  */
 public class LeetCode42 {
 
+    /**
+     * 这里还有一个简单的办法 就是一次从左往右，一次从右往左，然后求最大值
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println(trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1}));
         System.out.println(trap(new int[]{4,2,0,3,2,5}));
@@ -68,6 +72,11 @@ public class LeetCode42 {
         return finalInt;
     }
 
+    /**
+     * TODO 这里可以左右开始，下面代码貌似没有写对
+     * @param height
+     * @return
+     */
     public static int trap1(int[] height) {
         int length = height.length;
         if (length < 3) {
